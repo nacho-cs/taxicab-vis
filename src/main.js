@@ -47,7 +47,7 @@ const map = new maplibregl.Map({
       },
       "pmtiles-source": {
         type: "vector",
-        url: `pmtiles://http://localhost:5173/nyctiles-13m.pmtiles`,
+        url: `pmtiles://https://taxicab-vis.vercel.app/nyctiles-13m.pmtiles`,
       },
     },
     layers: [
